@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": false
+    },
+    "text": {
+      "type": "text"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "date": {
+      "type": "time"
+    },
+    "location": {
+      "type": "string"
+    },
+    "Ourmission": {
+      "type": "string"
+    },
+    "ourmissionpragraph": {
+      "type": "text"
+    },
+    "ourvission": {
+      "type": "string"
+    },
+    "Ourvissionpragraph": {
+      "type": "richtext"
+    },
+    "isHeroSection": {
+      "type": "boolean",
+      "default": false
+    },
+    "IsAbout": {
+      "type": "boolean",
+      "default": false
+    },
+    "slug": {
+      "type": "string",
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

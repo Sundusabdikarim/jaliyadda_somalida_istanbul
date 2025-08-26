@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_events_page_imagestexes",
+  "info": {
+    "displayName": "imagestex",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

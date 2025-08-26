@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "hompage_infobloks",
+  "info": {
+    "singularName": "hompage-infoblok",
+    "pluralName": "hompage-infobloks",
+    "displayName": "Hompage-infoblok",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

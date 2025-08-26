@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events_pages",
+  "info": {
+    "singularName": "events-page",
+    "pluralName": "events-pages",
+    "displayName": "EventsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "string",
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "unique": true,
+      "required": true
+    },
+    "IsheroSectionEvents": {
+      "type": "boolean",
+      "default": false
+    },
+    "events_content": {
+      "type": "dynamiczone",
+      "components": [
+        "events-page.text",
+        "events-page.imagestex"
+      ],
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}
